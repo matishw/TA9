@@ -21,7 +21,7 @@ export const createEventsSucess = createAction(
   props<{ eventsData: EventInterface}>()
 );
 
-export const getEventsFailure = createAction(
-  '[Events] Get Events failure',
+export const EventsFailure = createAction(
+  '[Events] Events failure',
   props<{ error: string }>()
 );

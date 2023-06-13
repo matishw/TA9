@@ -6,7 +6,7 @@ import { publicDecrypt } from 'crypto';
 
 export const initialState: EventsStateInterface = {
   isLoading: false,
-  eventsData: null,
+  eventsData: [],
   error: null,
   action: undefined,
 };
@@ -19,7 +19,7 @@ export const reducers = createReducer(
     eventsData: action.eventsData,
     action: ActionEnum.GET,
   })),
-  on(EventsActions.getEventsFailure, (state, action) => ({
+  on(EventsActions.EventsFailure, (state, action) => ({
     ...state,
     isLoading: false,
     error: action.error,

@@ -15,7 +15,7 @@ export class EventsEffects {
             EventsActions.getEventsSuccess({ eventsData: events })
           ),
           catchError((error) =>
-            of(EventsActions.getEventsFailure({ error: error.message }))
+            of(EventsActions.EventsFailure({ error: error.message }))
           )
         );
       })
@@ -29,7 +29,7 @@ export class EventsEffects {
         return this.eventsService.createEvents(item.event).pipe(
           map((post) => EventsActions.createEventsSucess({ eventsData: post })),
           catchError((error) =>
-            of(EventsActions.getEventsFailure({ error: error.message }))
+            of(EventsActions.EventsFailure({ error: error.message }))
           )
         );
       })
@@ -43,7 +43,7 @@ export class EventsEffects {
         return this.eventsService.editEvents(item.event).pipe(
           map((post) => EventsActions.editEventsSucess({ eventsData: post })),
           catchError((error) =>
-            of(EventsActions.getEventsFailure({ error: error.message }))
+            of(EventsActions.EventsFailure({ error: error.message }))
           )
         );
       })
