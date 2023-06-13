@@ -20,14 +20,12 @@ export class EventsService {
   
 
   editEvents(item: EventInterface): Observable<EventInterface> {
+    //on real will be here http put
     return of(item).pipe(delay(100));
   }
 
   createEvents(item: EventInterface): Observable<EventInterface> {
+    //on real will be here http post
     return of(item).pipe(delay(100));
-  }
-
-  deletePosts(id: string){
-    return of(id).pipe(delay(100));
   }
 }
