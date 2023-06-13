@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "color": "Green",
+    "name": "Car accident",
+    "createDate": "2019-06-25",
+    "lastUpdate": "2019-06-25",
+    "createdBy": "Ori Lugasi"
+  },
+  {
+    "id": 2,
+    "color": "Pink",
+    "name": "Car accident",
+    "createDate": "2019-06-25",
+    "lastUpdate": "2019-06-25",
+    "createdBy": "Ran Shim"
+  },
+  {
+    "id": 3,
+    "color": "Brown",
+    "name": "Car accident",
+    "createDate": "2019-06-25",
+    "lastUpdate": "2019-06-25",
+    "createdBy": "Chen Meir"
+  },
+  {
+    "id": 4,
+    "color": "Orange",
+    "name": "Car accident",
+    "createDate": "2019-06-25",
+    "lastUpdate": "2019-06-25",
+    "createdBy": "Or Bar"
+  },
+  {
+    "id": 5,
+    "color": "Yellow",
+    "name": "Car accident",
+    "createDate": "2019-06-25",
+    "lastUpdate": "2019-06-25",
+    "createdBy": "Chen Meiri"
+  },
+  {
+    "id": 6,
+    "color": "Red",
+    "name": "Car accident",
+    "createDate": "2019-06-25",
+    "lastUpdate": "2019-06-25",
+    "createdBy": "Or Bar"
+  },
+  {
+    "id": 7,
+    "color": "Green",
+    "name": "Car accident",
+    "createDate": "2019-06-25",
+    "lastUpdate": "2019-06-25",
+    "createdBy": "Ori Lugasi"
+  },
+  {
+    "id": 8,
+    "color": "Pink",
+    "name": "Car accident",
+    "createDate": "2019-06-25",
+    "lastUpdate": "2019-06-25",
+    "createdBy": "Ran Shim"
+  },
+  {
+    "id": 9,
+    "color": "Brown",
+    "name": "Car accident",
+    "createDate": "2019-06-25",
+    "lastUpdate": "2019-06-25",
+    "createdBy": "Chen Meir"
+  },
+  {
+    "id": 10,
+    "color": "Orange",
+    "name": "Car accident",
+    "createDate": "2019-06-25",
+    "lastUpdate": "2019-06-25",
+    "createdBy": "Or Bar"
+  }
+]

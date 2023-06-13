@@ -1,0 +1,37 @@
+<div style="width: 500px;">
+  <h2 mat-dialog-title>Create/Edit Event</h2>
+  <mat-dialog-content class="mat-typography">
+    <div>
+      <form [formGroup]="eventForm" novalidate>
+        <div>
+          <mat-form-field>
+            <mat-label>Color</mat-label>
+            <mat-select  formControlName="color">
+              <mat-option *ngFor="let color of colors" [value]="color.value">
+                {{ color.viewValue }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div>
+          <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput formControlName="name" />
+          </mat-form-field>
+        </div>
+        <div>
+          <mat-form-field>
+            <mat-label>Created By</mat-label>
+            <input matInput formControlName="createdBy" />
+          </mat-form-field>
+        </div>
+      </form>
+    </div>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button mat-button color="primary" [mat-dialog-close]="true" [disabled]="!eventForm.valid" cdkFocusInitial (click)="onSubmit()">
+      Save
+    </button>
+  </mat-dialog-actions>
+</div>
